@@ -1,0 +1,60 @@
+﻿@model Quartz.Presentation.ViewModels.JobDetailViewModel
+
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Job Details</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Interval)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Interval) s
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstRun)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstRun)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastRun)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastRun)
+        </dd>
+
+        @foreach (var item in Model.Parameters)
+        {
+            <dt>
+                @item.Key
+            </dt>
+
+            <dd>
+                @item.Value
+            </dd>
+        }
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { name = Model.Name }) |
+    @Html.ActionLink("Go back", "Index")
+</p>

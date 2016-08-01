@@ -1,0 +1,40 @@
+﻿2016-06-29 10:39:08.432 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-29 10:40:49.388 -03:00 [Information] 3 new orders were integrated.
+2016-06-29 10:42:28.789 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-29 10:45:15.032 -03:00 [Information] 3 new orders were integrated.
+2016-06-29 10:48:02.941 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-29 10:50:45.117 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-29 10:50:57.875 -03:00 [Information] Job ShippingIntegrationJob reset
+2016-06-29 10:50:57.880 -03:00 [Information] 3 trackings were updated.
+2016-06-29 10:51:03.070 -03:00 [Information] Job ShippingIntegrationJob reset
+2016-06-29 10:51:07.894 -03:00 [Information] 3 trackings were updated.
+2016-06-29 10:51:21.704 -03:00 [Information] Job ShippingIntegrationJob reset
+2016-06-29 10:51:21.704 -03:00 [Information] 3 trackings were updated.
+2016-06-29 10:51:47.488 -03:00 [Information] 3 trackings were updated.
+2016-06-29 10:51:47.490 -03:00 [Information] Job ShippingIntegrationJob reset
+2016-06-29 10:54:33.814 -03:00 [Information] 3 trackings were updated.
+2016-06-29 10:54:34.955 -03:00 [Information] Job ShippingIntegrationJob reset
+2016-06-29 10:54:43.814 -03:00 [Information] 3 trackings were updated.
+2016-06-29 10:54:49.315 -03:00 [Information] Job ShippingIntegrationJob paused
+2016-06-29 10:54:55.209 -03:00 [Information] 3 trackings were updated.
+2016-06-29 10:55:26.150 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-29 10:59:14.027 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-29 11:00:08.350 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-29 11:01:59.887 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-29 11:02:18.583 -03:00 [Information] Job ShippingIntegrationJob paused
+2016-06-29 11:02:38.001 -03:00 [Information] Job ShippingIntegrationJob paused
+2016-06-29 11:02:40.193 -03:00 [Information] Job ShippingIntegrationJob reset
+2016-06-29 11:02:43.071 -03:00 [Information] Job ShippingIntegrationJob paused
+2016-06-29 11:02:50.220 -03:00 [Information] 3 trackings were updated.
+2016-06-29 11:03:04.741 -03:00 [Information] Job config modified
+2016-06-29 11:03:21.498 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-29 11:03:52.767 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-29 11:04:30.797 -03:00 [Information] Job OrderIntegrationJob reset
+2016-06-29 11:58:23.797 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-29 11:59:58.078 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-29 12:00:20.713 -03:00 [Information] Job config modified
+2016-06-29 12:00:43.863 -03:00 [Information] Job config modified
+2016-06-29 12:02:06.635 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-29 12:02:17.115 -03:00 [Information] Job config modified
+2016-06-29 12:03:16.027 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-29 12:03:21.298 -03:00 [Information] Job ShippingIntegrationJob reset

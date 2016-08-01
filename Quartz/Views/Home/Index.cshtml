@@ -1,0 +1,89 @@
+﻿@model Quartz.Presentation.ViewModels.JobListViewModel
+
+@{
+    ViewBag.Title = "Jobs";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Jobs</h2>
+
+
+@using (Html.BeginForm())
+{
+    <div class="js-jobs-list">
+        <div class="btn-toolbar btn-toolbar-top">
+            <button class="js-jobs-list-command btn btn-sm btn-primary" data-loading-text="Enqueueing..." name="submitButton" value="Start">
+                <span class="glyphicon glyphicon-repeat"></span>
+                Start jobs
+            </button>
+            <button class="js-jobs-list-command btn btn-sm btn-warning" data-loading-text="Enqueueing..." name="submitButton" value="Stop">
+                <span class="glyphicon glyphicon-stop"></span>
+                Stop jobs
+            </button>
+            <div class="btn-toolbar-spacer pull-right"></div>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="min-width">
+                        <input type="checkbox" class="jobs-select-all">
+                    </th>
+                    <th class="min-width">Job</th>
+                    <th class="min-width">Last Run</th>
+                    <th class="min-width">Next Run</th>
+                    <th class="min-width">Times Triggered</th>
+                    <th class="align-right text-center">Running</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < Model.Jobs.Count; i++)
+                {
+                    <tr class="js-jobs-list-row  hover">
+                        <td style="text-align:center">
+                            @Html.CheckBoxFor(m => m.Jobs[i].Selected, new { @class = "js-jobs-list-checkbox" })
+                            @Html.HiddenFor(m => m.Jobs[i].Name)
+                        </td>
+                        <td>
+                            @Html.ActionLink(Model.Jobs[i].Name.Replace("Quartz", ""), "Detail", "Home", new { jobName = Model.Jobs[i].Name }, new { @class = "job-method" })
+                        </td>
+                        <td>
+                            @Html.DisplayFor(m => m.Jobs[i].LastRun)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(m => m.Jobs[i].NextRun)
+                        </td>
+                        <td>@Html.DisplayFor(m => m.Jobs[i].TimesTriggered)</td>
+                        @{
+                            if (Model.Jobs[i].Running == "Yes")
+                            {
+                                <td class="text-center" style="color:#ff1a1a">
+                                    @Html.DisplayFor(m => m.Jobs[i].Running)
+                                </td>
+                            }
+                            else
+                            {
+                                <td class="text-center" style="color:#33cc33">
+                                    @Html.DisplayFor(m => m.Jobs[i].Running)
+                                </td>
+                            }
+                        }
+                    </tr>
+                            }
+            </tbody>
+        </table>
+
+        <div class="btn-toolbar">
+            <div class="btn-toolbar-label">Date Time Now: @DateTime.Now</div>
+        </div>
+
+    </div>
+}
+
+@section scripts{
+    <script>
+        $(".jobs-select-all").click(function () {
+            $(".js-jobs-list-checkbox").prop('checked', $(this).prop('checked'));
+        });
+    </script>
+}

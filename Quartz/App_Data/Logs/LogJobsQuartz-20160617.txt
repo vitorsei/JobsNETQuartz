@@ -1,0 +1,20 @@
+﻿2016-06-17 15:00:35.512 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-17 15:00:45.524 -03:00 [Information] 3 trackings were updated.
+2016-06-17 15:05:30.834 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-17 15:06:15.845 -03:00 [Information] 3 new orders were integrated.
+2016-06-17 15:08:44.570 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-17 15:40:18.394 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-17 15:43:16.795 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-17 15:46:25.461 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-17 15:47:19.359 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-17 15:49:29.151 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-17 15:56:38.466 -03:00 [Information] 3 new orders were integrated.
+2016-06-17 15:58:22.328 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-17 15:59:16.144 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-17 16:01:30.755 -03:00 [Information] 3 new orders were integrated.
+2016-06-17 16:02:48.827 -03:00 [Information] 3 new orders were integrated.
+2016-06-17 16:03:33.833 -03:00 [Information] 3 new orders were integrated.
+2016-06-17 16:03:48.860 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-17 16:06:31.375 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-17 16:10:44.188 -03:00 [Information] QuartzBootsrapper has started.
+2016-06-17 16:11:54.229 -03:00 [Information] QuartzBootsrapper has started.
